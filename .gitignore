@@ -1,0 +1,19 @@
+# Ignore venv
+rasa3/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Rasa-related files
+.rasa/
+.results/
+models/
+logs/
+*.db
+
+# IDE & system files
+.vscode/
+.idea/
+.DS_Store
+.env
